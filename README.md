@@ -27,3 +27,5 @@
 3. Simulating client disconnect is done using ctrl+c or typing 4 in the client code. Havent covered other different ways of disconnecting.
 
 4. Error handling isn't very robust. 
+
+Note: The command `kill -9 $(lsof -ti:8765)` will be handy if runing server multiple times to unbiind the port.
